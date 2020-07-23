@@ -25,9 +25,9 @@ In this project I mastered:
 
 > sort_countries.py — this file sorts countries by landlocked and English-speaking criteria.
 
-> countries.json — this file contains information about counties.
+> countries.json — this file contains information about countries.
 
-> locations.list — this file is IMDb's movies data.(https://www.imdb.com/)
+> locations.list — this file is IMDb's movies data. (https://www.imdb.com/)
 
 > Map_1900.html and Map_1892.html — resulting files of the program's run (in 1900 and 1892 filming years). 
 
