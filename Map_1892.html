@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9b41c9abd5604108bd8268d961a5758b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9b41c9abd5604108bd8268d961a5758b" ></div>
+        
+</body>
+<script>    
+    
+            var map_9b41c9abd5604108bd8268d961a5758b = L.map(
+                "map_9b41c9abd5604108bd8268d961a5758b",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_736d74ad2cd042f3b83bd43e1e702db3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9b41c9abd5604108bd8268d961a5758b);
+        
+    
+            var tile_layer_a7320676209644a99c61ce2afff52066 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9b41c9abd5604108bd8268d961a5758b);
+        
+    
+            var feature_group_755a632f253c489abf55e28abca66667 = L.featureGroup(
+                {}
+            ).addTo(map_9b41c9abd5604108bd8268d961a5758b);
+        
+    
+            var marker_a012ff1280834438a5307f723fc18dc8 = L.marker(
+                [39.7837304, -100.4458825],
+                {}
+            ).addTo(feature_group_755a632f253c489abf55e28abca66667);
+        
+    
+            var icon_34c692e908fe4f42839c9e5d74444772 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_a012ff1280834438a5307f723fc18dc8.setIcon(icon_34c692e908fe4f42839c9e5d74444772);
+        
+    
+        var popup_a7adec52470c4af1906616200683e880 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba919e14f27e4de5878951ed525eb3ab = $(`<div id="html_ba919e14f27e4de5878951ed525eb3ab" style="width: 100.0%; height: 100.0%;">('A Hand Shake (1892)', 'Boxing (1892)', 'Fencing (1892)', 'Man on Parallel Bars (1892)', 'Wrestling (1892)', 5)</div>`)[0];
+            popup_a7adec52470c4af1906616200683e880.setContent(html_ba919e14f27e4de5878951ed525eb3ab);
+        
+
+        marker_a012ff1280834438a5307f723fc18dc8.bindPopup(popup_a7adec52470c4af1906616200683e880)
+        ;
+
+        
+    
+    
+            var feature_group_d38953db4ee540f095cfef948f78dcaf = L.featureGroup(
+                {}
+            ).addTo(map_9b41c9abd5604108bd8268d961a5758b);
+        
+    
+            var feature_group_6d7b54445b8a426cb8a1065b6e5bb6d4 = L.featureGroup(
+                {}
+            ).addTo(map_9b41c9abd5604108bd8268d961a5758b);
+        
+    
+            var marker_7b08e385b38c4451a046f3c8d74249c7 = L.marker(
+                [39.7837304, -100.4458825],
+                {}
+            ).addTo(feature_group_6d7b54445b8a426cb8a1065b6e5bb6d4);
+        
+    
+            var icon_1ad641303f474c589593bea1649edbca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7b08e385b38c4451a046f3c8d74249c7.setIcon(icon_1ad641303f474c589593bea1649edbca);
+        
+    
+        var popup_955edd7d57fc47fca0a9547eb0c4db80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3e183a204c548f39d1298a694c45f0b = $(`<div id="html_f3e183a204c548f39d1298a694c45f0b" style="width: 100.0%; height: 100.0%;">('A Hand Shake (1892)', 'Boxing (1892)', 'Fencing (1892)', 'Man on Parallel Bars (1892)', 'Wrestling (1892)', 5)</div>`)[0];
+            popup_955edd7d57fc47fca0a9547eb0c4db80.setContent(html_f3e183a204c548f39d1298a694c45f0b);
+        
+
+        marker_7b08e385b38c4451a046f3c8d74249c7.bindPopup(popup_955edd7d57fc47fca0a9547eb0c4db80)
+        ;
+
+        
+    
+    
+            var layer_control_8b35d8cd978d4a44bc715c715fcc3cbb = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_736d74ad2cd042f3b83bd43e1e702db3,
+                    "stamenwatercolor" : tile_layer_a7320676209644a99c61ce2afff52066,
+                },
+                overlays :  {
+                    "Film map" : feature_group_755a632f253c489abf55e28abca66667,
+                    "Landlocked countries" : feature_group_d38953db4ee540f095cfef948f78dcaf,
+                    "English-speaking countries" : feature_group_6d7b54445b8a426cb8a1065b6e5bb6d4,
+                },
+            };
+            L.control.layers(
+                layer_control_8b35d8cd978d4a44bc715c715fcc3cbb.base_layers,
+                layer_control_8b35d8cd978d4a44bc715c715fcc3cbb.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_9b41c9abd5604108bd8268d961a5758b);
+            tile_layer_a7320676209644a99c61ce2afff52066.remove();
+        
+</script>
