@@ -8,7 +8,7 @@ This program builds the dots on the map according to:
 ![image](https://drive.google.com/uc?export=view&id=1gqBhmWv0WayFI7B9-uPe2dJXiND36D5M)
 
 
-*In this project I mastered:*
+In this project I mastered:
 
 **Python** <br>
 **Folium** <br>
@@ -36,7 +36,7 @@ This program builds the dots on the map according to:
 The project requires Python 3+.
 
 ### Clone
--   Clone this repo to your local machine using  `https://github.com/tatiana-cooper/Movies-filming-map.git`
+Clone this repo to your local machine using  `https://github.com/tatiana-cooper/Movies-filming-map.git`
 
 ### Setup
 Windows 10:
@@ -45,6 +45,12 @@ For launching app:
 ```sh
 > python main.py
 ```
+
+### Warning! 
+For some yers the program runtime may take a long period of time to finish <br>
+because of the large amount of data to process<br>
+It happends because it takes too long for Geopy lib to convert location name into coordinates<br>
+
 
 ## Usage
 All usage steps are described dynamically during the program run.
