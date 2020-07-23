@@ -47,9 +47,9 @@ For launching app:
 ```
 
 ### Warning! 
-For some yers the program runtime may take a long period of time to finish <br>
-because of the large amount of data to process<br>
-It happends because it takes too long for Geopy lib to convert location name into coordinates<br>
+For some years the program runtime may take a long period of time to finish, <br>
+because of the large amount of data to process.<br>
+It happends because it takes too long for Geopy lib to convert location name into coordinates.<br>
 
 
 ## Usage
